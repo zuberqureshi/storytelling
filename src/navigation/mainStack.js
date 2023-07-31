@@ -1,14 +1,26 @@
 import { View, Text } from 'react-native'
 import React,{useState,useEffect} from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import Home from '../screens/Home'
+import Home from '../screens/Home/Home'
 import Splash from '../screens/Splash'
+import Artical from '../screens/Artical/Artical'
+
 
 const Stack = createNativeStackNavigator();
 
 const AuthStack = () => {
 
     const [splashShow, setSplashShow] = useState(true)
+
+
+    var options = {
+      Home: {
+        
+  
+      },
+
+    }
+
 
     const load = ()=>{
 
@@ -39,7 +51,16 @@ const AuthStack = () => {
   
    {splashShow?<Stack.Screen name='Splash' component={Splash}/>:null}
    
-    <Stack.Screen name='Home' component={Home} />
+    <Stack.Screen name='Home' component={Home} options={{headerShown:true,title:'',headerStyle: {
+        backgroundColor: '#0092bb',
+      },}} />
+
+<Stack.Screen name='Artical' component={Artical} options={{headerShown:true,title:'',headerStyle: {
+        backgroundColor: '#0092bb',
+      },
+      headerBackVisible:false,
+      
+      }} />
 
   
   </Stack.Navigator>
