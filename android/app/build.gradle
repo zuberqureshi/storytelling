@@ -74,9 +74,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.storytelling"
+    namespace "com.nfsnightstory.zs"
     defaultConfig {
-        applicationId "com.storytelling"
+        applicationId "com.nfsnightstory.zs"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

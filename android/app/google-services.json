@@ -7,6 +7,43 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:980325629038:android:e5474f35d0f823e048ba7f",
+        "android_client_info": {
+          "package_name": "com.nfsnightstory.zs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980325629038-iubjhpclfskv5isp0ct8ko2gikure4j2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nfsnightstory.zs",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "980325629038-4hn7i15141baodv5inookvgoq7ekql8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuWtsBtVI7UavAsYw6Kdub4DKCEFIe_yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980325629038-4hn7i15141baodv5inookvgoq7ekql8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:980325629038:android:a0e2e4dab1a0b74748ba7f",
         "android_client_info": {
           "package_name": "com.storytelling"
